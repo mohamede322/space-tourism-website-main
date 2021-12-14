@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <header class="header">
+          <div class="logo">
+            <a href="">
+              <img
+                src="./assets/shared/logo.svg"
+                alt=""
+                style="cursor: pointer"
+            /></a>
+          </div>
+          <div class="ham-menu">
+            <img src="./assets/shared/icon-hamburger.svg" alt="" />
+          </div>
+          <div class="links">
+            <a href="#" class="active">00 <span>Home</span></a>
+            <a href="#" class="start">01 <span>Destinations</span></a>
+            <a href="#">02 <span>Crew</span></a>
+            <a href="#">03 <span>Technology</span></a>
+          </div>
+        </header>
+
+        <main class="main-home">
+          <div class="left-side-home">
+            <p>
+              <span class="p-starter">So, you want to travel to</span> <br />
+              <span class="space">Space</span> <br />
+              Let’s face it; if you want to go to space, you might as well
+              genuinely go to outer space and not hover kind of on the edge of
+              it. Well sit back, and relax because we’ll give you a truly out of
+              this world experience!
+            </p>
+          </div>
+          <div class="right-side-home">
+            <button class="exp">Explore</button>
+          </div>
+        </main>
+
+        <main class="main main-dest">
+          <div class="left-side-dest">
+            <div class="txt">
+              <h2><span>01</span>PICK YOUR DESTINATION</h2>
+            </div>
+            <div class="image">
+              <img src="./assets/destination/image-moon.png" alt="" />
+            </div>
+          </div>
+
+          <div class="right-side-dest">
+            <div class="dest-headers">
+              <a href="#" class="active">MOON</a>
+              <a href="#">MARS</a>
+              <a href="#">EUROPA</a>
+              <a href="#">TITAN</a>
+            </div>
+
+            <div class="dest moon">
+              <div class="dest-top-side">
+                <h2 class="dest-name">MOON</h2>
+                <p class="dest-desc">
+                  See our planet as you’ve never seen it before. A perfect
+                  relaxing trip away to help regain perspective and come back
+                  refreshed. While you’re there, take in some history by
+                  visiting the Luna 2 and Apollo 11 landing sites.
+                </p>
+              </div>
+              <div class="dest-bot-side">
+                <div class="dest-info">
+                  <h3 class="info-header">AVG. DISTANCE</h3>
+                  <p class="info-txt distance">384,400 km</p>
+                </div>
+                <div class="dest-info">
+                  <h3 class="info-header">EST.TRAVEL TIME</h3>
+                  <p class="info-txt time">3 days</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <main class="main main-crew">
+          <div class="left-side-crew">
+            <div class="top-side">
+              <h3><span>02</span> MEET YOUR CREW</h3>
+            </div>
+
+            <div class="bot-side">
+              <h3 class="role">Commander</h3>
+              <h2 class="name">Douglas Hurley</h2>
+              <h4 class="bio">
+                Douglas Gerald Hurley is an American engineer, former Marine
+                Corps pilot and former NASA astronaut. He launched into space
+                for the third time as commander of Crew Dragon Demo-2.
+              </h4>
+              <div class="points">
+                <div class="selected 1"></div>
+                <div class="2"></div>
+                <div class="3"></div>
+                <div class="4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="right-side-crew">
+            <img src="./assets/crew/image-douglas-hurley.png" alt="" />
+          </div>
+        </main>
+
+        <main class="main main-tech">
+          <div class="left-side-tech">
+            <div class="top-side">
+              <h3><span>03</span> SPACE LAUNCH 101</h3>
+            </div>
+            <div class="bot-side">
+              <div class="left-side">
+                <div class="clicked"><p>1</p></div>
+                <div><p>2</p></div>
+                <div><p>3</p></div>
+              </div>
+              <div class="right-side">
+                <h3>THE TERMONOLOGY</h3>
+                <h1 class="name">LAUNCH VEHICLE</h1>
+                <p class="desc">
+                  A launch vehicle or carrier rocket is a rocket-propelled
+                  vehicle used to carry a payload from Earth's surface to space,
+                  usually to Earth orbit or beyond. Our WEB-X carrier rocket is
+                  the most powerful in operation. Standing 150 metres tall, it's
+                  quite an awe-inspiring sight on the launch pad!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="right-side-tech">
+            <img
+              src="./assets/technology/image-launch-vehicle-portrait.jpg"
+              alt=""
+            />
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
